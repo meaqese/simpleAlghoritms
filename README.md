@@ -1,0 +1,2 @@
+# simpleAlgorithms
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/72562bcb99cd4110802af8fcc1455d1b)](https://app.codacy.com/manual/meaqese/simpleAlgorithms?utm_source=github.com&utm_medium=referral&utm_content=meaqese/simpleAlgorithms&utm_campaign=Badge_Grade_Dashboard)
