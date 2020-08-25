@@ -1,6 +1,6 @@
 class SelectionSort:
-    @classmethod
-    def find_smallest(cls, array: list) -> int:
+    @staticmethod
+    def find_smallest(array: list) -> int:
         smallest, smallest_index = array[0], 0
 
         for i in range(1, len(array)):
@@ -12,7 +12,7 @@ class SelectionSort:
     def sort(self, array: list) -> list:
         new_list = []
 
-        for i in range(len(array)):
+        for _ in range(len(array)):
             smallest_index = self.find_smallest(array)
             new_list.append(array.pop(smallest_index))
         return new_list
